@@ -1,0 +1,359 @@
+@font-face {
+	font-family: 'Bebas';
+	src: url(../fonts/BEBAS.ttf);
+}@font-face {
+	font-family: 'StMarie-Thin';
+	src: url(../fonts/StMarie-Thin.otf);
+}
+}@font-face {
+	font-family: 'Calibri';
+	src: url(../fonts/Calibri.ttf);
+}
+ul, 
+li, a {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color:  #FFF;
+}
+
+html, body { height: 100%; }
+main {
+    min-height: 100%;
+    padding-bottom: 84px;
+}
+footer {
+	height: 70px;
+    margin-top: -84px;
+}
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.container  {
+	padding: 0;
+	margin: auto;
+	width: 1201.56px;
+	
+}
+header {
+	height: 127px;
+	background-color: #FFF;
+	position: fixed;
+	top: 0;
+    width: 100%;
+	border-bottom: 1px solid  #fef1dc;
+	z-index: 999;
+}
+div.logo {
+	float: left;
+	margin-left: 26px;
+	margin-top: 5px;
+}
+div.logo h1 {
+	position: relative;
+	right: 117px;
+	bottom: 8px;
+	display: inline-block;
+}
+div.logo h1 span:first-child {
+	color: #fb9c06;
+	font: 38px 'Calibri', sans-serif;
+	letter-spacing: 0.025em;
+	
+}
+div.logo h1 span:last-child {
+	position: relative;
+	right: 4px;
+	bottom: 1px;
+	color: #6e6d6b;
+	font: 38px 'Bebas', sans-serif;
+		letter-spacing: 0.015em;
+	
+	
+}
+nav {
+	float: right;
+	
+
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	
+}
+nav ul li a {
+	margin-top: 18px;
+	padding-top: 65px;
+	display: inline-block;
+	margin-left: 53px;
+	width: 70px;
+	background-image: url(../img/about-icon.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	color: #9e9b9b;
+	font: bold 22px  'Calibri', sans-serif;
+
+}
+nav ul li:hover a {
+	color: #fb8d00;
+}
+nav ul li:nth-child(3) a {
+	margin-left: 36px;
+}
+nav ul li:nth-child(2) a {
+	margin-left: 47px;
+}
+nav ul li a:last-child {
+	margin-right: 3px;
+
+}
+
+nav ul li:nth-child(1) a {
+	background-position: 7px 0;
+
+}
+nav ul li:nth-child(2)  a {
+	background-position: -116px 0;
+}
+nav ul li:nth-child(3)  a {
+	background-position: -230px 0;
+}
+nav ul li:nth-child(4)  a {
+	background-position: -360px 0;
+}
+nav ul li:nth-child(5) a {
+	background-position: -490px 0;
+}
+main {
+	margin-top: 127px;
+}
+
+.questions {
+	height: 400px;
+	background: url(../img/big-orange-bg.jpg) no-repeat;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+	border-top: 4px solid #fb9c06;
+	border-bottom: 4px solid #fb9c06;
+}
+span.questionOne {
+	display: block;
+	margin-top: 130px;
+	margin-left: 28px;
+	margin-bottom: 28px;
+	padding-left: 30px;
+	height: 66px;
+	width: 350px;
+	background-color: rgba(0,0,0, 0.69);
+	font: bold 38px/65px 'Bebas', sans-serif;
+	color: #fb9c06;
+}
+span.questionTwo {
+	display: block;
+	margin-left: 18px;
+	height: 75px;
+	width: 368px;
+	padding-left: 30px;
+	background-color: rgba(255, 175, 18, 0.7);
+	font: bold 38.5px/70px 'Bebas', sans-serif;
+	color: #6e6d6b;
+}
+section.four-textareas {
+	
+	border-top: 1px solid  #fef1dc;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	margin-bottom: 18px;
+}
+section.four-textareas ul {
+ 	margin-left: 28px;
+ 	margin-top: 28px;
+
+ 	
+ }
+ section.four-textareas ul li {
+	margin-right: 31px; 
+	margin-bottom: 25px;
+	float: left;
+ 	width: 270px;
+	list-style: none;
+	font: bold 16px/23px 'Calibri', sans-serif;
+	letter-spacing: -0.011em;
+	
+ }
+  section.four-textareas ul li:nth-child(4n+4) {
+  	width: 265px;
+  	margin-right: 0;
+  }
+  section.four-textareas ul li a { 
+  	display: block;
+  	text-align: right;
+  	color: #ffac00;
+  	font-style: italic;
+
+  }
+
+.meet-the-team li {
+	display: inline-block;
+	width: 33%;
+	float: left;
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 0;
+}
+.meet-the-team  li:nth-child(3n+1) {
+	clear: left;
+
+}
+
+.meet-the-team li:nth-child(3n+1) div {
+	float: left;
+}
+.meet-the-team  li:nth-child(3n+2) div {
+	margin: auto;
+}
+
+.meet-the-team li:nth-child(3n+3) div {
+	float: right;
+}
+.meet-the-team li:nth-child(3n+1) div:nth-child(3) {
+	margin-left: 40px;
+	margin-top: -5px;
+	margin-right: 10px;
+}
+.meet-the-team li:nth-child(3n+2) div:nth-child(3) {
+	margin-left: 113px;
+	margin-top: -5px;
+	
+}
+.meet-the-team li:nth-child(3n+3) div:nth-child(3) {
+	margin-left: 100px;
+	margin-top: -5px;
+	
+}
+.meet-the-team li div {
+	width: 302px;
+}
+
+
+.meet-the-team li div:nth-child(1) {
+	height: 30px;
+	text-align: center;
+	color: #6e6d6b;
+	font: 23px 'Calibri', sans-serif;
+	position: relative;
+	bottom: 35px;
+	left: 20px;
+
+}
+
+.meet-the-team li div:nth-child(2) img {
+	border: 8px solid #ffb540;
+	border-radius: 50%;
+	height: 295px;
+	width: 295px;	
+}
+.meet-the-team li div:nth-child(3) {
+	padding-top: 15px;
+	min-height: 130px;
+	font: 18px Calibri, sans-serif;
+	color: #333333;
+}
+
+ span.captionForm {
+ 	display: block;
+	width: 280px;
+	position: relative;
+	left: 16px;
+}
+span.width {
+	width: 390px; 
+}
+ 
+
+.send-message {
+	margin-top:  -30px;
+	height: 475px;
+}	
+.captionForm {
+	width: 390px;
+	height: 47px;
+	margin: 0 auto;
+	color: #ff9c00;
+	border-bottom: 3px solid #ff9c00;
+	font: 42px 'StMarie-Thin';
+	text-align: center;
+	margin-bottom: 70px;
+}
+ .meet-the-team span {
+	color: #fb9c06;
+}
+
+form input,form textarea {
+	height: 30px;
+	background-color: #f8f7f6;
+	border: none;
+	display: inline-block;
+	width: 88%;
+	box-shadow: inset 4px 1px 0 1px #d2d0cf;
+}
+form div {
+	margin-bottom: 34.5px;
+}
+form div:nth-child(3) {
+	margin-bottom: 19px;
+}
+
+form div button {
+	color: #fff;
+	background-color: #fb9c06;
+	font: 32px  'StMarie-Thin';
+	height: 45px;
+	width: 175px;
+	float: right;
+	border: none;
+	margin-right: 31px;
+	box-shadow: 0 2px 0 0 #cc830f;
+}
+
+form textarea {
+	resize: none;
+	height: 87px;
+}
+label {
+	color: #fca825;
+	font: 25px 'StMarie-Thin';
+	height: 100%;
+	display: inline-block;
+	width: 132px;
+}
+.message label {
+	width: 136px;
+	float: left;
+}
+.message textarea {
+	width: 87.7%;
+}
+
+
+
+footer { 
+	background-color: #fb9c06;
+	box-shadow: 1px 2px 0 2px #cc830f;
+}
+span.copyright {
+	display:block;
+	color: white;
+	font: 34.5px/70px  'StMarie-Thin';
+	text-align: center;
+}
